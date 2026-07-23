@@ -83,3 +83,6 @@ function htb {
     docker start kali >/dev/null
     docker exec -it kali bash
 }
+
+# For gnome-control-center to launch on Fedora
+set XDG_CURRENT_DESKTOP=GNOME
